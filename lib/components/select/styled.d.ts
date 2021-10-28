@@ -1,0 +1,25 @@
+import { ComponentSize } from "../../config/sizes";
+import ArrowDown from '../../icons/ArrowDown';
+interface StyledWrapperProps {
+    width: string;
+    innerSize: ComponentSize;
+}
+export declare const StyledWrapper: import("styled-components").StyledComponent<"div", any, StyledWrapperProps, never>;
+export declare const StyledHeader: import("styled-components").StyledComponent<"div", any, {}, never>;
+interface StyledArrowProps {
+    innerSize: ComponentSize;
+    upwards: boolean;
+}
+export declare const StyledArrow: import("styled-components").StyledComponent<typeof ArrowDown, any, StyledArrowProps, never>;
+interface StyledPopoverProps {
+    width: string;
+    visible: boolean;
+}
+export declare const StyledPopover: import("styled-components").StyledComponent<"div", any, StyledPopoverProps, never>;
+export declare const List: import("styled-components").StyledComponent<"ul", any, {}, never>;
+interface ListItemProps {
+    innerSize: ComponentSize;
+}
+export declare const ListItem: import("styled-components").StyledComponent<"li", any, ListItemProps, never>;
+export {};
+//# sourceMappingURL=styled.d.ts.map
